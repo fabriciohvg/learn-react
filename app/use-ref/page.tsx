@@ -4,6 +4,7 @@ import { Separator } from "@/components/ui/separator";
 import FocusInput from "./focus-text-input";
 import StopWatch from "./stop-watch";
 import ScrollToView from "./scroll-to-view";
+import VideoPlayer from "./video-player";
 
 export default function useRefPage() {
   return (
@@ -20,6 +21,8 @@ export default function useRefPage() {
         <FocusInput />
         <Separator />
         <ScrollToView />
+        <Separator />
+        <VideoPlayer />
       </div>
     </div>
   );
