@@ -75,7 +75,7 @@ export default function ScrollToView() {
             <li
               key={`${image.src}-${index}`}
               className={cn(
-                "p-1 size-98 shrink-0 overflow-hidden rounded border transition-all duration-700 ease-out",
+                "p-1 size-32 shrink-0 overflow-hidden rounded border transition-all duration-700 ease-out",
                 glowingIndex === index
                   ? "border-sky-400 shadow-[0_0_30px_rgba(56,189,248,0.8)]"
                   : "border-border shadow-none",
