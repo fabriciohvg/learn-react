@@ -5,6 +5,7 @@ import FocusInput from "./focus-text-input";
 import StopWatch from "./stop-watch";
 import ScrollToView from "./scroll-to-view";
 import VideoPlayer from "./video-player";
+import ParentRef from "./parent-ref";
 
 export default function useRefPage() {
   return (
@@ -23,6 +24,8 @@ export default function useRefPage() {
         <ScrollToView />
         <Separator />
         <VideoPlayer />
+        <Separator />
+        <ParentRef />
       </div>
     </div>
   );
